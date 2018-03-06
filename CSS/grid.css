@@ -1,0 +1,7 @@
+.ui.grid + .grid {
+    margin-top: 5em;
+    padding-left: 10em;
+}
+.ui.grid.container {
+    width: calc( 1200px  +  5rem ) !important;
+}

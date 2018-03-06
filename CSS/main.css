@@ -1,0 +1,137 @@
+/* div.container {
+    margin-left: 16%;
+    width: 84%;
+    text-align: right;
+} */
+html, body 
+{
+    height: 100%;
+    margin: 0px;
+    padding:0px;
+}
+
+#login {
+    background-image: linear-gradient(to bottom, #141E30, #243B55); 
+}
+
+.ui.inverted.menu {
+    background-image: linear-gradient(to bottom, #141E30, #243B55);
+}
+
+.ui.secondary.button{
+    background-image: linear-gradient(to top right, #141E30, #243B55);
+}
+
+.ui.segments {
+    width: 90%;
+    margin-top: -35px;
+    margin-left: 30px;
+    border: 0px solid rgb(4, 4, 4);
+    box-shadow: 0px 0px 0px 0 rgba(34, 36, 38, 0);
+}
+
+.container >.button{
+    margin-top: 100px;
+    padding-bottom: 1rem;
+    margin-bottom: -7em;
+}
+
+.ui.table:last-child {
+    margin-left: 0em;
+}
+
+.ui.table thead th{
+    background: #e2980e;
+    cursor: pointer;
+}
+.ui.equal.width.center.aligned.padded.grid.stackable {
+    padding-top: 10px;
+}
+
+.ui.equal.width.center.aligned.padded.grid {
+    width: 90%;
+}
+
+.ui.grid {
+    /* margin-top: 65px; */
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-top: -4rem;
+}
+
+.ui.segment {
+    background: #06060600;
+    padding: 50px 0px 50px 10px;
+}
+
+.ui.yellow.button {
+    background-color: #e2980e;
+    color: #FFFFFF;
+    text-shadow: none;
+    background-image: none;
+}
+
+.ui.grid > .ui.grid:first-child {
+    margin-top: -5em;
+    margin-left: 0;
+}
+
+.ui.table:last-child {
+    margin-left: 0em;
+}
+
+.ui.table thead th{
+    background: #e2980e;
+    cursor: pointer;
+}
+
+.ui.segments:not(.horizontal) > .segment:first-child {
+    margin-top: -3em;
+    top: 65px;
+}
+
+.ui.segments:last-child {
+    margin-bottom: -5em;
+}
+
+.ui.selection.list .list > .item, .ui.selection.list > .item {
+    color: rgba(0,0,0,1.4);
+}
+
+.ui.selection.list .list > .item, .ui.selection.list > .item {
+    background: #FFFFFF;
+}
+
+.ui.sidebar {
+    z-index: 100;
+}
+#sidebar {
+    position: fixed;
+    top: 4.5em;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    height: auto;
+    background-image: linear-gradient(to bottom, #141E30, #243B55);
+    padding: 0px;
+}
+
+#content {
+    margin-top: 4em ;
+    margin-left: 16%;
+    width: 83%;
+    /* margin-top: 3em; */
+    float: left;
+}
+.column > .button{
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    padding-right: inherit;
+}
+
+.ui.divider {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
